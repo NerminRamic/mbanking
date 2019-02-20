@@ -1,1 +1,1 @@
-# mbanking
+Simple mBanking app
