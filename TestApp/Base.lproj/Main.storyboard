@@ -382,7 +382,7 @@
                                                                     <size key="shadowOffset" width="-1" height="0.0"/>
                                                                 </label>
                                                             </subviews>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="trailing" secondItem="pf0-6x-Lx0" secondAttribute="trailing" id="f1Q-mO-1EN"/>
@@ -391,6 +391,7 @@
                                                             </constraints>
                                                         </view>
                                                     </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="tJG-N6-lQu" secondAttribute="trailing" id="4YQ-eJ-u8J"/>
                                                         <constraint firstItem="tJG-N6-lQu" firstAttribute="leading" secondItem="gSw-Ix-iD4" secondAttribute="leading" id="EbL-41-raO"/>
@@ -489,7 +490,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sBd-Bv-Tee"/>
         <segue reference="jd7-CN-2ih"/>
     </inferredMetricsTieBreakers>
 </document>

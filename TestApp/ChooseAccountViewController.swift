@@ -28,7 +28,13 @@ class ChooseAccountViewController: UIViewController, UITableViewDelegate, UITabl
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let accountCell = tableView.dequeueReusableCell(withIdentifier: "accountCell", for: indexPath) as! AccountTableViewCell
-        accountCell.setAccount(account: self.accounts[indexPath.row])
+        let accountToSet = self.accounts[indexPath.row]
+        
+        if self.parentController.activeAccount?.id == accountToSet.id {
+            accountCell.isUserInteractionEnabled = false
+            accountCell.backgroundColor = UIColor.gray.withAlphaComponent(0.1)
+        }
+        accountCell.setAccount(account: accountToSet)
         
         return accountCell
     }
